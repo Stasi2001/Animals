@@ -8,6 +8,6 @@ public class Main {
         dog.scare(cat);
 
         Noisy noisy = () -> System.out.println("Громко");
-        dog.scare(noisy);
+        dog.scare((Animal) noisy);
     }
 }
